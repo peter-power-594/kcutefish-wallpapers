@@ -24,6 +24,30 @@ CutefishOS's system wallpaper.
 
 [wallpaper-9.jpg](https://unsplash.com/photos/uPKJ2XrcfZQ)
 
+## Install
+
+```shell
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr ..
+make
+```
+
+## Uninstall
+
+```shell
+rm /usr/share/backgrounds/cutefishos/default.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-1.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-2.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-3.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-4.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-5.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-6.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-7.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-8.jpg
+rm /usr/share/backgrounds/cutefishos/wallpaper-9.jpg
+```
+
 ## License
 
 * [Unsplash License](https://unsplash.com/license)
